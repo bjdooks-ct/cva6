@@ -54,6 +54,7 @@ package ariane_pkg;
 
   localparam logic [31:0] OPENHWGROUP_MVENDORID = 32'h0602;
   localparam logic [31:0] ARIANE_MARCHID = 32'd3;
+  localparam logic [31:0] ARIANE_MIMPID = 32'd1;	// set to 1 to indicate fpu dirty fix
 
   // 32 registers
   localparam REG_ADDR_SIZE = 5;
